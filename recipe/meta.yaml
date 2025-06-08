@@ -1,5 +1,5 @@
 {% set name = "mkdocs-git-authors-plugin" %}
-{% set version = "0.9.5" %}
+{% set version = "0.9.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e19f0252ead3d626fd73e15bb56d6675704c3b62aa569ebc363f791291b8f60e
+  sha256: 180cc80ef78d553676b850fb783e13506d7eadd30b13a070aa085b2d9ad0607d
 
 build:
   noarch: python
